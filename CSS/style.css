@@ -1,7 +1,52 @@
 body{
   text-align: center;
+  background: rgba(214, 243, 211, 0.5);
 }
 
 img{
   height: 30rem;
+}
+
+button {
+	box-shadow:inset -4px -1px 11px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:13px;
+	border:2px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 14px;
+	text-decoration:none;
+	text-shadow:-4px 0px 15px #cc9f52;
+  outline: none;
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+
+/****************************/
+
+/*mobile*/
+@media only screen and (max-width: 600px){
+  img{
+    height: 15rem;
+  }
+}
+
+/*tablet*/
+@media (min-width:601px) and (max-width:800px) {
+  img{
+    height: 20rem;
+  }
 }
